@@ -17,10 +17,18 @@ Supported environment:
     conda create --name <env name> --file requirements.txt
 ## RAM (Restoring Active Memory) data
 
-Go to [Data Request](https://memory.psych.upenn.edu/Data_Request) and fill in the required details to access the data.
+Go to UPenn's [Data Request](https://memory.psych.upenn.edu/Data_Request) page and fill in the required details to access the data.
 Download and expand the 19AUG2020a release using 7-Zip or Winzip. 
+
 ---
-# Running experiments
+# Getting started
+## Configure data path
+Edit the *ROOTDIR* variable in the **config.py** file to reflect the location of the dataset in your machine. 
+
+## Run experiment
+Make sure you are within the created virtual environment: \
+    conda activate <env name>
+
     
 
 
