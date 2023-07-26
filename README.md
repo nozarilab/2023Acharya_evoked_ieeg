@@ -1,5 +1,4 @@
 # About
----
 Codes pertaining to the results in our paper *Predictive Modeling of Evoked Intracranial EEG Response to Medial Temporal Lobe Stimulation in Patients with Epilepsy*.
 
 Authors: Gagan Acharya<sup>1</sup>, Kathryn A. Davis<sup>2</sup>, Erfan Nozari<sup>1</sup> 
@@ -9,11 +8,13 @@ Authors: Gagan Acharya<sup>1</sup>, Kathryn A. Davis<sup>2</sup>, Erfan Nozari<s
 
 ---
 # Requirement
----
 Supported environment:\
-Python 3.7
-
-Libraries:
+- Python 3.7
+## Downloading the repository
+    git clone 
+## Installing the dependencies
+    cd 2023Acharya_evoked_ieeg
+    conda create --name <env name> --file requirements.txt
 
 
 
