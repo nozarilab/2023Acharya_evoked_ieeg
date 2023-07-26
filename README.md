@@ -46,9 +46,11 @@ Once the results are generated in the *OUTPUT_PATH* folder, you can plot them by
     python -i plotter.py
     >>> plot_fig2()
 
-This should plot the following figure:
+This should plot the following figures:
 
+![Figure 2a](images/ar_lags.png)
 
+![Figure 2b](images/stat_win_rate_arx.png)
 
     
 
