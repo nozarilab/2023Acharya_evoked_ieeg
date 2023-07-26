@@ -16,6 +16,7 @@ Supported environment:
     cd 2023Acharya_evoked_ieeg
     conda create --name <env name> --file requirements.txt
 ## RAM (Restoring Active Memory) data
+
 Go to [Data Request](https://memory.psych.upenn.edu/Data_Request) and fill in the required details to access the data.
 Download and expand the 19AUG2020a release using 7-Zip or Winzip. 
 ---
