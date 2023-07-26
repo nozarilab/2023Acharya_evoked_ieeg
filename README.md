@@ -22,10 +22,13 @@ Download and expand the 19AUG2020a release using 7-Zip or Winzip.
 
 ---
 # Getting started
+
 ## Configure data path
+
 Edit the *ROOTDIR* variable in the **config.py** file to reflect the location of the dataset in your machine. 
 
 ## Run experiment
+
 Make sure you are within the created virtual environment:
 
     conda activate <env name>
@@ -37,6 +40,7 @@ Make sure you are working in the *2023Acharya_evoked_ieeg* directory and run the
 The results will be stored in the path indicated by the *OUTPUT_PATH* variable
 
 ## Plotting results
+
 Once the results are generated in the *OUTPUT_PATH* folder, you can plot them by calling the routines in **plotter.py**. For example, the plots in figure 2 of the paper can be plotted using the following commands:
 
     python -i plotter.py
